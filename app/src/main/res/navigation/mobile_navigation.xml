@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_about"
+        android:name="evanh.fitnesspro.ui.about.AboutFragment"
+        android:label="@string/menu_about"
+        tools:layout="@layout/fragment_about" />
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="evanh.fitnesspro.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home">
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_cardio"
+        android:name="evanh.fitnesspro.ui.cardio.CardioFragment"
+        android:label="@string/menu_cardio"
+        tools:layout="@layout/fragment_cardio" />
+
+    <fragment
+        android:id="@+id/nav_workout"
+        android:name="evanh.fitnesspro.ui.workout.WorkoutFragment"
+        android:label="@string/menu_workout"
+        tools:layout="@layout/fragment_workout" />
+
+    <fragment
+        android:id="@+id/nav_weighin"
+        android:name="evanh.fitnesspro.ui.weighin.WeighInFragment"
+        android:label="@string/menu_weighin"
+        tools:layout="@layout/fragment_weigh_in" />
+
+    <fragment
+        android:id="@+id/nav_progress"
+        android:name="evanh.fitnesspro.ui.progress.ProgressFragment"
+        android:label="@string/menu_progress"
+        tools:layout="@layout/fragment_progress" />
+
+    <fragment
+        android:id="@+id/nav_alarm"
+        android:name="evanh.fitnesspro.ui.alarm.AlarmFragment"
+        android:label="@string/menu_alarm"
+        tools:layout="@layout/fragment_alarm" />
+</navigation>
